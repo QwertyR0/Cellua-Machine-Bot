@@ -1,0 +1,24 @@
+{
+  "name": "celluamachinebot",
+  "version": "1.0.0",
+  "description": "A bot for Cellua Machine Server",
+  "main": "./dist/main.js",
+  "exports": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "br": "tsc -b && node ."
+  },
+  "author": "QwertyR0",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.3.1",
+    "node-json-db": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.9",
+    "typescript": "^5.1.6"
+  },
+  "type": "module"
+}
