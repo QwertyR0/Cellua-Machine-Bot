@@ -9,7 +9,7 @@
     "br": "tsc -b && node ."
   },
   "author": "QwertyR0",
-  "license": "MIT",
+  "license": "GPL v3",
   "dependencies": {
     "canvas": "^2.11.2",
     "discord.js": "^14.12.1",
